@@ -78,7 +78,7 @@ body {
 }
 
 .main-one {
-  height: 33vh;
+  height: 32vh;
 }
 
 .plans {
@@ -186,7 +186,7 @@ body {
 }
 
 .main-one__title {
-  margin-bottom: 2%;
+  margin-bottom: 2.2%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   text-align: center;
@@ -206,19 +206,19 @@ body {
   color: #3a3a3a;
   font-weight: 300;
   font-size: 191%;
-  line-height: 37px;
+  line-height: 35px;
 }
 
 .main-two {
   margin: 0;
-  padding-top: 4%;
+  padding-top: 6%;
   height: 21.5vh;
   width: auto;
   background-color: #f0fbff;
 }
 
 .main-two__title {
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   text-align: center;
@@ -227,6 +227,48 @@ body {
   font-size: 207%;
   line-height: 49px;
   color: #3a3a3a;
+}
+
+.form {
+  margin: 0 37% 5% 37%;
+  width: 26%;
+}
+
+.form__text {
+  margin: 0;
+  height: 74px;
+  width: 352px;
+  border: 0;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #878787;
+}
+
+.form__text1 {
+  margin-bottom: 30px;
+  padding-left: 23px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.form__text2 {
+  margin-bottom: 74px;
+  padding-left: 23px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.form__btn {
+  font-family: 'montserrat', arial, helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #ffda45;
+  padding: 27px 106px;
 }
 
 .footer {
