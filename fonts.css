@@ -18,3 +18,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('fonts/gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
