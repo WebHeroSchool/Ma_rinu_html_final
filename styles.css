@@ -32,37 +32,48 @@ body {
 }
 
 .header__title {
-  margin-bottom: 2.3%;
+  margin-bottom: 3.3%;
   margin-top: 0;
-  font-family: 'gilroylight', arial, helvetica, sans-serif;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 232%;
-  line-height: 57px;
+  font-size: 281%;
+  line-height: 54px;
   color: #fff;
-  letter-spacing: 1px;
+}
+
+.header__title-mobile {
+  display: none;
+}
+
+.header__subtitle-mobile {
+  display: none;
+}
+
+.header__text-mobile {
+  display: none;
 }
 
 .header__subtitle {
-  margin-bottom: 0.4%;
+  margin-bottom: 1%;
   margin-top: 0;
-  font-family: 'gilroylight', arial, helvetica, sans-serif;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   color: #ffcc33;
   font-weight: 800;
-  font-size: 161%;
-  line-height: 39px;
+  font-size: 188%;
+  line-height: 35px;
 }
 
 .header__text {
   margin-bottom: 4%;
   margin-top: 0;
-  font-family: 'gilroylight', arial, helvetica, sans-serif;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   color: #fff;
   font-weight: 300;
-  font-size: 127%;
-  line-height: 25px;
+  font-size: 124%;
+  line-height: 24px;
 }
 
 .header__btn {
@@ -122,13 +133,13 @@ body {
 
 .plans__box__title-one {
   margin-top: 0;
-  padding: 184px 0 5px 0;
+  padding: 180px 0 5px 0;
   text-align: center;
-  font-family: 'gilroylight', arial, helvetica, sans-serif;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 160%;
-  line-height: 37px;
+  font-size: 187%;
+  line-height: 38px;
   color: #3030c1;
 }
 
@@ -138,20 +149,21 @@ body {
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 107%;
-  line-height: 25px;
+  font-size: 125%;
+  line-height: 22px;
   color: #3a3a3a;
 }
 
 .plans__box__title-two {
   margin-top: 0;
-  padding: 184px 0 0px 0;
+  margin-bottom: 17px;
+  padding: 180px 0 0px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 160%;
-  line-height: 37px;
+  font-size: 187%;
+  line-height: 38px;
   color: #3030c1;
 }
 
@@ -161,31 +173,31 @@ body {
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 107%;
-  line-height: 21px;
+  font-size: 125%;
+  line-height: 22px;
   color: #3a3a3a;
 }
 
 .plans__box__title-three {
   margin-top: 0;
-  padding: 184px 0 5px 0;
+  padding: 180px 0 5px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 160%;
-  line-height: 37px;
+  font-size: 187%;
+  line-height: 38px;
   color: #3030c1;
 }
 
 .plans__box__text-three {
   margin: 0;
   text-align: center;
-  font-family: 'gilroylight', arial, helvetica, sans-serif;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 107%;
-  line-height: 25px;
+  font-size: 125%;
+  line-height: 22px;
   color: #3a3a3a;
 }
 
@@ -196,7 +208,7 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: 800;
-  font-size: 216%;
+  font-size: 248%;
   line-height: 49px;
   color: #3a3a3a;
 }
@@ -204,12 +216,12 @@ body {
 .main-one__text {
   margin-bottom: 4%;
   margin-top: 0;
-  font-family: 'gilroylight', arial, helvetica, sans-serif;
+  font-family: 'gilroy', arial, helvetica, sans-serif;
   text-align: center;
   font-style: normal;
   color: #3a3a3a;
   font-weight: 300;
-  font-size: 192%;
+  font-size: 183%;
   line-height: 34px;
 }
 
@@ -228,7 +240,7 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: 800;
-  font-size: 207%;
+  font-size: 248%;
   line-height: 49px;
   color: #3a3a3a;
 }
@@ -297,4 +309,296 @@ body {
   font-weight: normal;
   font-size: 90%;
   line-height: 18px;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .header {
+    min-height: 92%;
+  }
+
+  .header__title {
+    font-size: 330%;
+    line-height: 74px;
+    margin-bottom: 3.3%;
+  }
+
+  .header__subtitle {
+    font-size: 235%;
+    line-height: 50px;
+    margin-bottom: 2.4%;
+  }
+
+  .header__text {
+    font-size: 185%;
+    line-height: 39px;
+  }
+
+  .header__btn {
+    padding: 20px 30px;
+    font-size: 162%;
+  }
+
+  .header__btn:hover {
+    padding: 23px 33px;
+  }
+
+  .main-one {
+    height: 80vh;
+  }
+
+  .main-one__title {
+    font-size: 244%;
+  }
+
+  .plans {
+    margin-bottom: 4%;
+  }
+
+  .plans__box {
+    height: 39.5vh;
+  }
+
+  .plans__box__title-one {
+    font-size: 192%;
+  }
+
+  .plans__box__title-two {
+    font-size: 192%;
+  }
+
+  .plans__box__title-three {
+    font-size: 192%;
+  }
+
+  .plans__box__text-one {
+    font-size: 131%;
+  }
+
+  .plans__box__text-two {
+    font-size: 131%;
+  }
+
+  .plans__box__text-three {
+    font-size: 131%;
+  }
+
+  .main-one__text {
+    font-size: 221%;
+    line-height: 40px;
+  }
+
+  .main-two {
+    height: 51.5vh;
+
+  }
+
+  .main-two__title {
+    font-size: 244%;
+    margin-bottom: 4%;
+  }
+
+  .form {
+    margin: 0 35% 4.6% 35%;
+    width: 30%;
+  }
+
+  .form__text {
+    width: 539px;
+  }
+
+  .form__btn {
+    padding: 27px 202px;
+  }
+
+  .form__btn:hover {
+    padding: 30px 207px;
+  }
+
+  .footer {
+    height: 11vh;
+  }
+
+  .footer__text {
+    padding-top: 2.7%;
+    font-size: 127%;
+  }
+}
+
+@media (max-width: 1306px) {
+  .header {
+    background-position-x: 50%;
+    background-position-y: 22%;
+    text-align: center;
+    min-height: 48%;
+  }
+
+  .header__logo {
+    margin-bottom: 54.6%;
+  }
+
+  .header__title {
+    font-size: 317%;
+    line-height: 64px;
+    margin-bottom: 3.3%;
+  }
+
+  .header__subtitle {
+    font-size: 229%;
+    line-height: 48px;
+    margin-bottom: 2.4%;
+  }
+
+  .header__text {
+    font-size: 172%;
+    line-height: 35px;
+    margin-bottom: 5%;
+  }
+
+  .header__btn{
+    font-size: 155%;
+  }
+}
+
+@media (max-width: 1197px) {
+  .header {
+    min-height: 53%;
+    background-position-y: 19%;
+  }
+
+  .header__logo {
+    margin-bottom: 76.6%;
+  }
+
+  .main-one {
+    height: 67vh;
+    margin-bottom: 5%;
+  }
+
+  .plans {
+    margin: 0px 25% 0 25%;
+    display: block;
+    width: auto;
+  }
+
+  .plans__box {
+    width: 100%;
+    margin: 0 0 8% 0;
+  }
+
+  .plans__box__title-one {
+    font-size: 211%;
+    line-height: 39px;
+  }
+
+  .plans__box__title-two {
+    font-size: 211%;
+    line-height: 39px;
+  }
+
+  .plans__box__title-three {
+    font-size: 211%;
+    line-height: 39px;
+  }
+
+  .plans__box__text-one {
+    font-size: 146%;
+    line-height: 28px;
+  }
+
+  .plans__box__text-two {
+    font-size: 146%;
+    line-height: 28px;
+  }
+
+  .plans__box__text-three {
+    font-size: 146%;
+    line-height: 28px;
+  }
+
+  .form {
+    margin: 0 33% 7% 35%;
+    width: 34%;
+  }
+
+  .form__text {
+    width: 93%;
+  }
+
+  .form__btn {
+    padding: 27px 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin-bottom: 24%;
+    width: 100%;
+    background-position-y: 98%;
+    padding-left: 47px;
+    padding-top: 19%;
+    height: 38%;
+    background-size: contain;
+    text-align: left;
+    min-height: 38.2%;
+  }
+
+  .header__logo {
+    height: 40px;
+    margin-bottom: 11.6%;
+ }
+
+ .header__title {
+   display: none;
+ }
+
+ .header__title-mobile {
+   display: block;
+   margin-bottom: 14%;
+   margin-top: 0;
+   font-family: 'gilroy', arial, helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 247%;
+   line-height: 50px;
+   color: #fff;
+ }
+
+ .header__subtitle {
+   display: none;
+ }
+
+ .header__subtitle-mobile {
+   display: block;
+   margin-bottom: 3%;
+   margin-top: 0;
+   font-family: 'gilroy', arial, helvetica, sans-serif;
+   font-style: normal;
+   color: #ffcc33;
+   font-weight: 800;
+   font-size: 200%;
+   line-height: 35px;
+ }
+
+ .header__text {
+   display: none;
+ }
+
+ .header__text-mobile {
+  display: block;
+   margin-bottom: 4%;
+   margin-top: 0;
+   font-family: 'gilroy', arial, helvetica, sans-serif;
+   font-style: normal;
+   color: #fff;
+   font-weight: 300;
+   font-size: 147%;
+   line-height: 26px;
+ }
+
+ .header__btn {
+   display: none;
+ }
+
+
+
 }
