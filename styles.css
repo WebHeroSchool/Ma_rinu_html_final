@@ -295,6 +295,7 @@ body {
   background-color: #ffda45;
   padding: 27px 106px;
   border: 0;
+  cursor: pointer;
 }
 
 .form__btn:hover {
