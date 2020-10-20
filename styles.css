@@ -261,7 +261,7 @@ body {
 .form__text {
   margin: 0;
   height: 74px;
-  width: 352px;
+  width: -webkit-fill-available;
   border: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
@@ -286,6 +286,7 @@ body {
 }
 
 .form__btn {
+  width: -webkit-fill-available;
   font-family: 'montserrat', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -416,6 +417,7 @@ body {
 
   .form__btn {
     padding: 27px 202px;
+    width: -webkit-fill-available;
   }
 
   .form__btn:hover {
@@ -534,6 +536,101 @@ body {
 
   .form__btn {
     padding: 27px 30%;
+    width: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 950px) {
+  .header__btn {
+    display: none;
+  }
+
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header__logo {
+    margin-bottom: 84.6%;
+  }
+
+  .form__btn {
+    padding: 27px 26%;
+    width: -webkit-fill-available;
+  }
+
+  .form__btn:hover {
+    display: none;
+  }
+}
+
+@media (max-width: 724px) {
+  .header__logo {
+    margin-bottom: 113.6%;
+  }
+
+  .header {
+    background-size: 70%;
+    background-position-y: 13%;
+  }
+
+  .header__title {
+    font-size: 229%;
+  }
+
+  .plans {
+    margin: 0px 10% 0 10%;
+  }
+
+  .main-one {
+    height: 70vh;
+  }
+
+  .form__btn {
+    padding: 27px 20%;
+    width: -webkit-fill-available;
+  }
+
+  .form__btn:hover {
+    display: none;
+  }
+}
+
+@media (max-width: 450px){
+  .plans {
+    margin: 0px 5% 0 5%;
+  }
+
+  .plans__box__title-one {
+    font-size: 174%;
+    line-height: 31px;
+  }
+
+  .plans__box__title-two {
+    font-size: 174%;
+    line-height: 31px;
+  }
+
+  .plans__box__title-three {
+    font-size: 174%;
+    line-height: 31px;
+  }
+
+  .main-two {
+    height: 22.5vh;
+  }
+
+  .form {
+    margin: 0 12% 7% 12%;
+    width: 76%;
+  }
+
+  .form__btn {
+    padding: 27px 27%;
+  }
+
+  .footer {
+    height: 2vh;
   }
 }
 
@@ -724,6 +821,7 @@ body {
  }
 
  .form__btn {
+   width: -webkit-fill-available;
    font-size: 12px;
    padding: 10px 31%;
    width: 260px;
@@ -743,11 +841,4 @@ body {
    padding-left: 30px;
    font-size: 59%;
  }
-
-
-
-
-
-
-
 }
