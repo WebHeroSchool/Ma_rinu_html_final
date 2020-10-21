@@ -5,14 +5,10 @@ body {
 .wrapper {
   margin: auto;
   width: 100%;
-  height: 100vh;
 }
 
 .header {
-  padding-top: 4%;
-  padding-left: 130px;
-  padding-right: 130px;
-  min-height: 33%;
+  padding: 4% 130px 17.7% 130px;
   margin-bottom: 4%;
   width: auto;
   background-image: url('img/img2.svg');
@@ -74,7 +70,7 @@ body {
 }
 
 .header__text {
-  margin-bottom: 4%;
+  margin-bottom: 3.5%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
@@ -89,7 +85,7 @@ body {
   color: #3030c1;
   font-style: normal;
   font-weight: 900;
-  font-size: 130%;
+  font-size: 98%;
   line-height: 24px;
   background-color: #ffcc33;
   padding: 17px 22px;
@@ -98,10 +94,6 @@ body {
 
 .header__btn:hover {
   padding: 20px 25px;
-}
-
-.main-one {
-  height: 32vh;
 }
 
 .plans {
@@ -114,8 +106,8 @@ body {
 .plans__box {
   margin-right: 30px;
   margin-left: 0;
+  padding-bottom: 5%;
   width: 33%;
-  height: 16.5vh;
   background-color: #fbfbfb;
   box-shadow:7px 7px 30px rgba(0, 0, 0, 0.25);
   background-position: center top;
@@ -235,8 +227,8 @@ body {
 
 .main-two {
   margin: 0;
-  padding-top: 6%;
-  height: 21.5vh;
+  padding-top: 5%;
+  padding-bottom: 0.3%;
   width: auto;
   background-color: #f0fbff;
 }
@@ -279,7 +271,7 @@ body {
 }
 
 .form__text2 {
-  margin-bottom: 74px;
+  margin-bottom: 78px;
   padding-left: 23px;
   padding-top: 5px;
   padding-bottom: 1px;
@@ -304,7 +296,7 @@ body {
 
 .footer {
   margin: 0;
-  height: 5vh;
+  padding-bottom: 3.4%;
   width: auto;
   background-color: #0000b8;
 }
@@ -312,12 +304,12 @@ body {
 .footer__text {
   margin: 0;
   padding-left: 130px;
-  padding-top: 3.7%;
+  padding-top: 3.5%;
   font-family: 'roboto', arial, helvetica, sans-serif;
   color: #fff;
   font-style: normal;
   font-weight: normal;
-  font-size: 90%;
+  font-size: 74%;
   line-height: 18px;
 }
 
@@ -353,7 +345,7 @@ body {
   }
 
   .main-one {
-    height: 80vh;
+
   }
 
   .main-one__title {
@@ -365,7 +357,7 @@ body {
   }
 
   .plans__box {
-    height: 39.5vh;
+
   }
 
   .plans__box__title-one {
@@ -397,11 +389,6 @@ body {
     line-height: 40px;
   }
 
-  .main-two {
-    height: 51.5vh;
-
-  }
-
   .main-two__title {
     font-size: 244%;
     margin-bottom: 4%;
@@ -423,10 +410,6 @@ body {
 
   .form__btn:hover {
     padding: 30px 207px;
-  }
-
-  .footer {
-    height: 11vh;
   }
 
   .footer__text {
@@ -481,7 +464,6 @@ body {
   }
 
   .main-one {
-    height: 67vh;
     margin-bottom: 5%;
   }
 
@@ -583,10 +565,6 @@ body {
     margin: 0px 10% 0 10%;
   }
 
-  .main-one {
-    height: 70vh;
-  }
-
   .form__btn {
     padding: 27px 20%;
     width: -webkit-fill-available;
@@ -617,10 +595,6 @@ body {
     line-height: 31px;
   }
 
-  .main-two {
-    height: 22.5vh;
-  }
-
   .form {
     margin: 0 12% 7% 12%;
     width: 76%;
@@ -629,19 +603,13 @@ body {
   .form__btn {
     padding: 27px 27%;
   }
-
-  .footer {
-    height: 2vh;
-  }
 }
 
 @media (max-width: 320px) {
   .header {
     margin-bottom: 13%;
     background-position-y: 86%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 12%;
+    padding: 12% 30px 87% 30px;
     background-size: 80%;
     text-align: left;
     min-height: 23.8%;
@@ -650,11 +618,11 @@ body {
   .header__logo {
     height: 24px;
     margin-bottom: 10.6%;
- }
+  }
 
- .header__title {
+  .header__title {
    display: none;
- }
+  }
 
  .header__title-mobile {
    display: block;
@@ -666,11 +634,11 @@ body {
    font-size: 152%;
    line-height: 31px;
    color: #fff;
- }
+  }
 
  .header__subtitle {
    display: none;
- }
+  }
 
  .header__subtitle-mobile {
    display: block;
@@ -682,7 +650,7 @@ body {
    font-weight: 800;
    font-size: 125%;
    line-height: 28px;
- }
+  }
 
  .header__text {
    display: none;
@@ -705,8 +673,8 @@ body {
  }
 
  .main-one {
-   height: 55.7vh;
    margin-bottom: 0;
+   padding-bottom: 14%;
  }
 
  .main-one__title {
@@ -720,10 +688,10 @@ body {
  }
 
  .plans__box {
-   height: 11.7vh;
    background-position-y: 39px;
    background-size: 34%;
    margin: 0 0 7.5% 0;
+   padding-bottom: 16.1%;
  }
 
  .plans__box__title-one {
@@ -782,7 +750,7 @@ body {
  .main-two {
    margin: 0;
    padding-top: 12%;
-   height: 12.8vh;
+   padding-bottom: 13.3%;
  }
 
  .main-two__title {
@@ -798,7 +766,7 @@ body {
    font-style: normal;
    font-weight: 800;
    font-size: 126%;
-   line-height: 31px;
+   line-height: 28px;
    color: #3a3a3a;
  }
 
@@ -834,7 +802,7 @@ body {
  }
 
  .footer {
-   height: 2.5vh;
+   padding-bottom: 5.4%;
  }
 
  .footer__text {
