@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  padding: 4% 130px 17.6% 130px;
+  padding: 4% 130px 17.7% 130px;
   margin-bottom: 3.9%;
   width: auto;
   background-image: url('img/img2.svg');
@@ -70,13 +70,13 @@ body {
 }
 
 .header__text {
-  margin-bottom: 3.8%;
+  margin-bottom: 4.1%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   color: #fff;
   font-weight: 300;
-  font-size: 96%;
+  font-size: 125%;
   line-height: 22px;
 }
 
@@ -85,10 +85,10 @@ body {
   color: #3030c1;
   font-style: normal;
   font-weight: 900;
-  font-size: 93%;
+  font-size: 124%;
   line-height: 24px;
   background-color: #ffcc33;
-  padding: 18px 27px;
+  padding: 17px 26px;
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ body {
 .plans__box {
   margin-right: 30px;
   margin-left: 0;
-  padding-bottom: 4.6%;
+  padding-bottom: 4.2%;
   width: 33%;
   background-color: #fbfbfb;
   box-shadow:7px 7px 30px rgba(0, 0, 0, 0.25);
@@ -156,7 +156,7 @@ body {
 
 .plans__box__title-two {
   margin-top: 0;
-  margin-bottom: 17px;
+  margin-bottom: 11px;
   padding: 187px 0 0px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
@@ -173,14 +173,14 @@ body {
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 127%;
-  line-height: 22px;
+  font-size: 125%;
+  line-height: 25px;
   color: #3a3a3a;
 }
 
 .plans__box__title-three {
   margin-top: 0;
-  padding: 187px 0 7px 0;
+  padding: 185px 0 7px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
@@ -192,11 +192,12 @@ body {
 
 .plans__box__text-three {
   margin: 0;
+  width: 98%;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 125%;
+  font-size: 128%;
   line-height: 24px;
   color: #3a3a3a;
 }
@@ -223,25 +224,25 @@ body {
   color: #3a3a3a;
   font-weight: 300;
   font-size: 187%;
-  line-height: 34px;
+  line-height: 35px;
 }
 
 .main-two {
   margin: 0;
-  padding-top: 5%;
-  padding-bottom: 0.4%;
+  padding-top: 4.9%;
+  padding-bottom: 0.1%;
   width: auto;
   background-color: #f0fbff;
 }
 
 .main-two__title {
-  margin-bottom: 3.2%;
+  margin-bottom: 3.4%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   text-align: center;
   font-style: normal;
   font-weight: 800;
-  font-size: 248%;
+  font-size: 250%;
   line-height: 49px;
   color: #3a3a3a;
 }
@@ -272,7 +273,7 @@ body {
 }
 
 .form__text2 {
-  margin-bottom: 79px;
+  margin-bottom: 78px;
   padding-left: 23px;
   padding-top: 5px;
   padding-bottom: 1px;
@@ -286,7 +287,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   background-color: #ffda45;
-  padding: 26px 107px;
+  padding: 27px 107px;
   border: 0;
   cursor: pointer;
 }
@@ -310,7 +311,7 @@ body {
   color: #fff;
   font-style: normal;
   font-weight: normal;
-  font-size: 74%;
+  font-size: 96%;
   line-height: 18px;
 }
 
@@ -701,7 +702,7 @@ body {
 
  .plans__box__title-two {
    padding: 139px 0 0 0;
-   margin-bottom: 4px;
+   margin-bottom: 6px;
    font-size: 125%;
    line-height: 26px;
  }
@@ -714,8 +715,8 @@ body {
  .plans__box__title-three {
    padding: 142px 0 0 0;
    font-size: 125%;
-   line-height: 26px;
-   margin-bottom: 14px;
+   line-height: 24px;
+   margin-bottom: 17px;
  }
 
  .plans__box__text-three {
@@ -736,7 +737,7 @@ body {
    font-style: normal;
    color: #3a3a3a;
    font-weight: 300;
-   font-size: 109%;
+   font-size: 113%;
    line-height: 21px;
  }
 
@@ -752,14 +753,14 @@ body {
 
  .main-two__title-mobile {
    display: block;
-   margin-bottom: 8%;
+   margin-bottom: 9%;
    margin-top: 0;
    font-family: 'gilroy', arial, helvetica, sans-serif;
    text-align: center;
    font-style: normal;
    font-weight: 800;
    font-size: 126%;
-   line-height: 25px;
+   line-height: 24px;
    color: #3a3a3a;
  }
 
@@ -779,7 +780,7 @@ body {
 
  .form__text2 {
    padding-top: 0;
-   margin-bottom: 30px;
+   margin-bottom: 27px;
  }
 
  .form__btn {
@@ -794,7 +795,7 @@ body {
  }
 
  .footer {
-   padding-bottom: 5.4%;
+   padding-bottom: 6.3%;
  }
 
  .footer__text {
