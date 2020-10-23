@@ -8,8 +8,8 @@ body {
 }
 
 .header {
-  padding: 4% 130px 17.7% 130px;
-  margin-bottom: 4%;
+  padding: 4% 130px 17.6% 130px;
+  margin-bottom: 3.9%;
   width: auto;
   background-image: url('img/img2.svg');
   background-color: #3030c1;
@@ -28,7 +28,7 @@ body {
 }
 
 .header__title {
-  margin-bottom: 3.3%;
+  margin-bottom: 3.1%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
@@ -70,14 +70,14 @@ body {
 }
 
 .header__text {
-  margin-bottom: 3.5%;
+  margin-bottom: 3.8%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   color: #fff;
   font-weight: 300;
-  font-size: 124%;
-  line-height: 24px;
+  font-size: 96%;
+  line-height: 22px;
 }
 
 .header__btn {
@@ -85,10 +85,10 @@ body {
   color: #3030c1;
   font-style: normal;
   font-weight: 900;
-  font-size: 98%;
+  font-size: 93%;
   line-height: 24px;
   background-color: #ffcc33;
-  padding: 17px 22px;
+  padding: 18px 27px;
   text-decoration: none;
 }
 
@@ -99,14 +99,14 @@ body {
 .plans {
   display: flex;
   align-content: space-between;
-  margin: 0 auto 4% auto;
+  margin: 0 auto 3.7% auto;
   width: 82%
 }
 
 .plans__box {
   margin-right: 30px;
   margin-left: 0;
-  padding-bottom: 5%;
+  padding-bottom: 4.6%;
   width: 33%;
   background-color: #fbfbfb;
   box-shadow:7px 7px 30px rgba(0, 0, 0, 0.25);
@@ -133,7 +133,7 @@ body {
 
 .plans__box__title-one {
   margin-top: 0;
-  padding: 180px 0 5px 0;
+  padding: 183px 0 3px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
@@ -150,14 +150,14 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 125%;
-  line-height: 22px;
+  line-height: 25px;
   color: #3a3a3a;
 }
 
 .plans__box__title-two {
   margin-top: 0;
   margin-bottom: 17px;
-  padding: 180px 0 0px 0;
+  padding: 187px 0 0px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
@@ -173,20 +173,20 @@ body {
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 125%;
+  font-size: 127%;
   line-height: 22px;
   color: #3a3a3a;
 }
 
 .plans__box__title-three {
   margin-top: 0;
-  padding: 180px 0 5px 0;
+  padding: 187px 0 7px 0;
   text-align: center;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 187%;
-  line-height: 38px;
+  line-height: 36px;
   color: #3030c1;
 }
 
@@ -197,7 +197,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 125%;
-  line-height: 22px;
+  line-height: 24px;
   color: #3a3a3a;
 }
 
@@ -216,25 +216,26 @@ body {
 .main-one__text {
   margin-bottom: 4%;
   margin-top: 0;
+  margin-left: 15px;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   text-align: center;
   font-style: normal;
   color: #3a3a3a;
   font-weight: 300;
-  font-size: 183%;
+  font-size: 187%;
   line-height: 34px;
 }
 
 .main-two {
   margin: 0;
   padding-top: 5%;
-  padding-bottom: 0.3%;
+  padding-bottom: 0.4%;
   width: auto;
   background-color: #f0fbff;
 }
 
 .main-two__title {
-  margin-bottom: 3%;
+  margin-bottom: 3.2%;
   margin-top: 0;
   font-family: 'gilroy', arial, helvetica, sans-serif;
   text-align: center;
@@ -271,7 +272,7 @@ body {
 }
 
 .form__text2 {
-  margin-bottom: 78px;
+  margin-bottom: 79px;
   padding-left: 23px;
   padding-top: 5px;
   padding-bottom: 1px;
@@ -285,7 +286,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   background-color: #ffda45;
-  padding: 27px 106px;
+  padding: 26px 107px;
   border: 0;
   cursor: pointer;
 }
@@ -609,7 +610,7 @@ body {
 
   .header__logo {
     height: 24px;
-    margin-bottom: 10.6%;
+    margin-bottom: 9.9%;
   }
 
   .header__title {
@@ -618,7 +619,7 @@ body {
 
  .header__title-mobile {
    display: block;
-   margin-bottom: 8%;
+   margin-bottom: 9%;
    margin-top: 0;
    font-family: 'gilroy', arial, helvetica, sans-serif;
    font-style: normal;
@@ -641,7 +642,7 @@ body {
    color: #ffcc33;
    font-weight: 800;
    font-size: 125%;
-   line-height: 28px;
+   line-height: 26px;
   }
 
  .header__text {
@@ -657,7 +658,7 @@ body {
    color: #fff;
    font-weight: 300;
    font-size: 93%;
-   line-height: 15px;
+   line-height: 17px;
  }
 
  .header__btn {
@@ -687,10 +688,10 @@ body {
  }
 
  .plans__box__title-one {
-   padding: 137px 0 0 0;
+   padding: 138px 0 0 0;
    font-size: 125%;
-   line-height: 29px;
-   margin-bottom: 11px;
+   line-height: 26px;
+   margin-bottom: 14px;
  }
 
  .plans__box__text-one {
@@ -699,27 +700,27 @@ body {
  }
 
  .plans__box__title-two {
-   padding: 136px 0 0 0;
-   margin-bottom: 0;
+   padding: 139px 0 0 0;
+   margin-bottom: 4px;
    font-size: 125%;
-   line-height: 29px;
+   line-height: 26px;
  }
 
  .plans__box__text-two {
-   font-size: 65%;
-   line-height: 13px;
+   font-size: 62%;
+   line-height: 12px;
  }
 
  .plans__box__title-three {
-   padding: 137px 0 0 0;
+   padding: 142px 0 0 0;
    font-size: 125%;
-   line-height: 29px;
-   margin-bottom: 11px;
+   line-height: 26px;
+   margin-bottom: 14px;
  }
 
  .plans__box__text-three {
-   font-size: 65%;
-   line-height: 13px;
+   font-size: 62%;
+   line-height: 12px;
  }
 
  .main-one__text {
@@ -741,7 +742,7 @@ body {
 
  .main-two {
    margin: 0;
-   padding-top: 12%;
+   padding-top: 13%;
    padding-bottom: 13.3%;
  }
 
@@ -751,14 +752,14 @@ body {
 
  .main-two__title-mobile {
    display: block;
-   margin-bottom: 6%;
+   margin-bottom: 8%;
    margin-top: 0;
    font-family: 'gilroy', arial, helvetica, sans-serif;
    text-align: center;
    font-style: normal;
    font-weight: 800;
    font-size: 126%;
-   line-height: 28px;
+   line-height: 25px;
    color: #3a3a3a;
  }
 
@@ -783,9 +784,8 @@ body {
 
  .form__btn {
    width: -webkit-fill-available;
-   font-size: 12px;
+   font-size: 10px;
    padding: 10px 31%;
-   width: 260px;
    height: 45px;
  }
 
@@ -798,8 +798,8 @@ body {
  }
 
  .footer__text {
-   padding-top: 7.7%;
+   padding-top: 6.7%;
    padding-left: 30px;
-   font-size: 59%;
+   font-size: 64%;
  }
 }
