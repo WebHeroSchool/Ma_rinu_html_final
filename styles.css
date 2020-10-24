@@ -744,7 +744,7 @@ body {
  .main-two {
    margin: 0;
    padding-top: 13%;
-   padding-bottom: 13.3%;
+   padding-bottom: 13.9%;
  }
 
  .main-two__title {
@@ -776,11 +776,15 @@ body {
 
  .form__text1 {
    margin-bottom: 13px;
+   padding-left: 12px;
+   padding-top: 1px;
+   padding-bottom: 1px;
  }
 
  .form__text2 {
-   padding-top: 0;
-   margin-bottom: 27px;
+   padding-top: 1px;
+   margin-bottom: 28px;
+   padding-left: 12px;
  }
 
  .form__btn {
